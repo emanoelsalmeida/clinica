@@ -585,7 +585,7 @@ footer a{
     
     .about{
         background-color: aqua;
-        height: 1300px; 
+        height: 1000px; 
     }
     .about h1{
         width: 50px;
@@ -619,84 +619,58 @@ footer a{
         width: 30px;
         position: relative;
         top: 3%;
-        left: 10%;
+        left: 3%;
         color: #0f63a0;
         font-size: 50px;
     }
-    .pag-one .box-one{
-       max-width: 550px;
-        height: 680px;
-        width: 100%;
-        padding: 170px 100px;
+    .pag-one .box-one,
+    .pag-one .box-two{
+        max-width: 550px;
+        height: 500px;
+        width: 80%;
+        padding: 30px 30px;
         background-color: white;
         position: relative;
         top: 8%;
         margin: -40px;
     }
-    .pag-one .box-one img{
-       height: 40vh;
-        width: 63vh;
-        position: relative;
-        top: -200px;
-        left:-80px;
-    }
-    .pag-one .box-one h3{
-        position: relative;
-        top: 180px;
-        font-size: 50px;
-    }
-    .pag-one .box-one p{
-        width: 400px;
-        font-size: 50px;
-        position: relative;
-        top: -80px;
-    }
-    .pag-one .box-one button.color{
-        position: relative;
-        top: -50px;
-        left: -85px;
-        width:150%;
-        height: 80px;
-        font-size: 30px;
-    }
-    
-     .pag-one .box-two{
-        max-width: 550px;
-        height: 680px;
-        width: 100%;
-        padding: 170px 100px;
-        background-color: white;
-        position: relative;
-        top: 12%;
-        left: -1%;
-    }
+    .pag-one .box-one img,
     .pag-one .box-two img{
-       height: 40vh;
-        width: 63vh;
+       height: 30vh;
+        width: 43vh;
         position: relative;
-        top: -200px;
-        left:-80px;
+        top: -60px;
+        left:10px;
     }
+    .pag-one .box-one h3,
     .pag-one .box-two h3{
         position: relative;
         top: 180px;
-        font-size: 50px;
+        left: 5%;
+        font-size: 30px;
     }
-    .pag-one .box-two p{
-        width: 400px;
-        font-size: 50px;
+    .pag-one .box-one p,
+     .pag-one .box-two p{
+        width: 200px;
+        font-size: 25px;
         position: relative;
-        top: -80px;
+         top: -10px;
+        left: 5%;
     }
-    .pag-one .box-two button.color{
+    .pag-one .box-one button.color, .pag-one .box-two button.color{
         position: relative;
-        top: -50px;
-        left: -85px;
-        width:150%;
+        top: 0px;
+        left: 3%;
+        width:70%;
         height: 80px;
         font-size: 30px;
     }
     
+    .pag-one .box-two{
+         position: relative;
+        top:10%;
+        left:13%;
+    }
     .pag-one .box-three{
         max-width: 550px;
         height: 700px;
