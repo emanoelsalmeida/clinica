@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+   background-color: #F2F2F2;
+}
+
+header{
+    height: 100px;
+    background-color: #F2F2F2;    
+}
+header img{
+    height: 15vh;
+    position: relative;
+    left: 5%;
+}
+header p{
+    position: relative;
+    top: -55px;
+    left: 30%
+}
+header button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    top: -85px;
+    left: 80%;
+}
+
+
+.about{
+    height: 300px;
+    background-color: white;
+}
+.about h1{
+    position: relative;
+    top: 15%;
+    left: 13%;
+    color: #0f63a0;
+}
+.about h2{
+    position: relative;
+    top: 15%;
+    left: 13%;
+    color: #0f63a0;
+    font-size: 25x;
+}
+.about p{
+    width: 800px;
+    position: relative;
+    top: 15%;
+    left: 13%;
+    color: black;
+    font-size: 20px;
+    text-align: left;   
+    margin-top: 20px;
+}
+
+.pag-one{
+    height: 650px;
+}
+
+.pag-one h1{
+    width: 30px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    color: #0f63a0;
+    font-size: 40px;
+}
+.pag-one .box-one{
+    height: 70px;
+    width: 100px;
+    padding: 170px 100px;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    left: 13%;
+}
+.pag-one .box-one img{
+    height: 200px;
+    position: relative;
+    top: -220px;
+    left: -100px;
+    width:300px;
+}
+.pag-one .box-one h3{
+    position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+}
+.pag-one .box-one p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.pag-one .box-one button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    top: -143px;
+    left: -100px;
+}
+
+.pag-one .box-two{
+    height: 70px;
+    width: 100px;
+    padding: 170px 100px;
+    background-color: white;
+    position: relative;
+    top: -48%;
+    left: 38%;
+}
+.pag-one .box-two img{
+    height: 200px;
+    position: relative;
+    top: -220px;
+    left: -100px;
+    width:300px
+}
+.pag-one .box-two h3{
+    position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+}
+.pag-one .box-two p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.pag-one .box-two button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    top: -143px;
+    left: -100px;
+}
+
+.pag-one .box-three{
+    height: 70px;
+    width: 100px;
+    padding: 170px 100px;
+    background-color: white;
+    position: relative;
+    top: -111.1%;
+    left: 63%;
+}
+.pag-one .box-three img{
+    height: 200px;
+    position: relative;
+    top: -220px;
+    left: -100px;
+    width:300px
+}
+.pag-one .box-three h3{
+    position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.pag-one .box-three p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.pag-one .box-three button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    top: -143px;
+    left: -100px;
+}
+
+
+.medical{
+     height: 1200px;
+     background-color: white;
+}
+.medical h1{
+    width: 300px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    color: #0f63a0;
+    font-size: 40px;
+    
+}
+.medical .m1{
+    height: 70px;
+    width: 100px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 13%;
+    left: 13%;
+}
+.medical .m1 img{
+     height: 200px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+    width:300px
+}
+.medical .m1 h3{
+     position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m1 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.medical .m1 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -144px;
+    left: -100px;
+}
+
+.medical .m2{
+    height: 70px;
+    width: 100px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: -22.8%;
+    left: 38%;
+
+}
+.medical .m2 img{
+     height: 200px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+    width:300px
+}
+.medical .m2 h3{
+     position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m2 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.medical .m2 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -144px;
+    left: -100px;
+}
+
+.medical .m3{
+    height: 70px;
+    width: 100px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: -58.6%;
+    left: 63%;
+}
+.medical .m3 img{
+     height: 200px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+    width:300px
+}
+.medical .m3 h3{
+     position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m3 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.medical .m3 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -144px;
+    left: -100px;
+}
+
+.medical .m4{
+    height: 70px;
+    width: 100px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: -53.5%;
+    left: 13%;
+}
+.medical .m4 img{
+     height: 200px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+    width:300px
+}
+.medical .m4 h3{
+     position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m4 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.medical .m4 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -144px;
+    left: -100px;
+}
+
+.medical .m5{
+    height: 70px;
+    width: 100px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: -89.3%;
+    left: 38%;
+}
+.medical .m5 img{
+     height: 200px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+    width:300px
+}
+.medical .m5 h3{
+     position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m5 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.medical .m5 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: -144px;
+    left: -100px;
+    cursor: pointer;
+}
+
+.medical .m6{
+    height: 70px;
+    width: 100px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: -125.2%;
+    left: 63%;
+}
+.medical .m6 img{
+     height: 200px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+    width:300px
+}
+.medical .m6 h3{
+     position: relative;
+    left:-70px;
+    top: 30px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m6 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+}
+.medical .m6 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -144px;
+    left: -100px;
+}
+
+.pag-three{
+    height: 600px;
+}
+.pag-three h1{
+    width: 300px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    color: #0f63a0;
+    font-size: 40px;
+}
+.pag-three iframe{
+    position: relative;
+    top: 80px;
+    left: 13%; 
+    width: 400px;
+    height: 300px;
+}
+
+.pag-three form{
+    width: 450px;
+    position: relative;
+    top: -37%;
+    left: 52%;
+    max-width: 550px;
+    background-color: white;
+    display:flex;
+    height: 300px
+}
+.pag-three form h2{
+    position: relative;
+    top:3%;
+    left: 12%;
+    color: #0f63a0;
+}
+.pag-three form .input-fields{
+    position: relative;
+    top: 10%;
+    left:-30%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.input-fields, .msg{
+    width: 48%
+}
+.input-fields input, .msg textarea{
+    margin: 10px 0;
+    background:transparent;
+    border:0;
+    border-bottom: 2px solid  #0f63a0;
+    padding:10px;
+    color: #0f63a0;
+    width:100%;
+}
+.msg textarea{
+    height: 80px;
+    width: 48%;
+}
+.input-fields button{
+    background:  #0f63a0;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer{
+    height: 30px;
+    background-color: #8c8c8c;
+     font-size: 17px;
+}
+footer .footer-text{
+    text-decoration: none;
+    position: relative;
+    left: 35%;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+@media screen and (max-width: 900px){
+    body{
+        background-color: #f2f2f2;
+    }
+    header{
+        height:  500px;
+    }
+    header img{
+       height: 40vh;
+        position: relative;
+        left:25%;
+    }
+    header p{
+        font-size: 0px;
+    }
+    header button.color{
+        width: 120%;
+        height: 100px;
+        position: relative;
+        top: 90px;
+        left: 13%;
+        font-size: 30px;
+    }
+    
+    .about{
+        background-color: aqua;
+        height: 1300px; 
+    }
+    .about h1{
+        width: 50px;
+        font-size: 50px;
+        position: relative;
+        top: 5%;
+        left: 10%;
+    }
+    .about h2{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    font-size: 45px;
+     width: 500px;
+}
+    .about p{
+        width: 400px;
+        font-size: 40px;
+        position: relative;
+        top: 7%;
+        left: 10%;
+    }
+    
+    .pag-one{
+        width: 100%;
+        height: 3600px;
+        background-color: GREEN;
+        background-size: cover;
+    }
+    .pag-one h1{
+        width: 30px;
+        position: relative;
+        top: 3%;
+        left: 10%;
+        color: #0f63a0;
+        font-size: 50px;
+    }
+    .pag-one .box-one{
+       max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 8%;
+        margin: -40px;
+    }
+    .pag-one .box-one img{
+       height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -200px;
+        left:-80px;
+    }
+    .pag-one .box-one h3{
+        position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .pag-one .box-one p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .pag-one .box-one button.color{
+        position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+     .pag-one .box-two{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 12%;
+        left: -1%;
+    }
+    .pag-one .box-two img{
+       height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -200px;
+        left:-80px;
+    }
+    .pag-one .box-two h3{
+        position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .pag-one .box-two p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .pag-one .box-two button.color{
+        position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .pag-one .box-three{
+        max-width: 550px;
+        height: 700px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 14%;
+        left: -1%;
+    }
+    .pag-one .box-three img{
+        height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -260px;
+        left:-80px;
+    }
+    .pag-one .box-three h3{
+        position: relative;
+        top: 160px;
+        font-size: 50px;
+    }
+    .pag-one .box-three p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .pag-one .box-three button.color{
+        position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .medical {
+        height: 6700px;
+        background-color: pink;
+    }
+    .medical h1{
+         width: 500px;
+        position: relative;
+        top:1%;
+        left: 10%;
+        color: #0f63a0;
+        font-size: 50px;
+    }
+    .medical .m1{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 3%;
+        margin: -40px;
+    }
+    .medical .m1 img{
+     height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -180px;
+        left:-80px;
+    }
+    .medical .m1 h3{
+          position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .medical .m1 p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .medical .m1 button.color{
+         position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .medical .m2{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 4.5%;
+        left: -1%;
+    }
+    .medical .m2 img{
+     height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -180px;
+        left:-80px;
+    }
+    .medical .m2 h3{
+          position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .medical .m2 p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .medical .m2 button.color{
+         position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .medical .m3{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 5.5%;
+        left: -1%;
+    }
+    .medical .m3 img{
+     height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -180px;
+        left:-80px;
+    }
+    .medical .m3 h3{
+          position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .medical .m3 p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .medical .m3 button.color{
+         position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .medical .m4{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 6.5%;
+        left: -1%;
+    }
+    .medical .m4 img{
+     height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -180px;
+        left:-80px;
+    }
+    .medical .m4 h3{
+          position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .medical .m4 p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .medical .m4 button.color{
+         position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .medical .m5{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 7.5%;
+        left: -1%;
+    }
+    .medical .m5 img{
+     height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -180px;
+        left:-80px;
+    }
+    .medical .m5 h3{
+          position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .medical .m5 p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .medical .m5 button.color{
+         position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .medical .m6{
+        max-width: 550px;
+        height: 680px;
+        width: 100%;
+        padding: 170px 100px;
+        background-color: white;
+        position: relative;
+        top: 8.5%;
+        left: -1%;
+    }
+    .medical .m6 img{
+     height: 40vh;
+        width: 63vh;
+        position: relative;
+        top: -180px;
+        left:-80px;
+    }
+    .medical .m6 h3{
+          position: relative;
+        top: 180px;
+        font-size: 50px;
+    }
+    .medical .m6 p{
+        width: 400px;
+        font-size: 50px;
+        position: relative;
+        top: -80px;
+    }
+    .medical .m6 button.color{
+         position: relative;
+        top: -50px;
+        left: -85px;
+        width:150%;
+        height: 80px;
+        font-size: 30px;
+    }
+    
+    .pag-three{
+        height: 900px;
+    }
+    .pag-three h1{
+        width: 500px;
+        position: relative;
+        top:3%;
+        left: 10%;
+        color: #0f63a0;
+        font-size: 50px;
+    }
+    .pag-three iframe{
+         width: 400px;
+    }
+    
+    .pag-three form{
+        position: relative;
+        top: 13.5%;
+        left: -3%
+    }
+    .input-fields input, .msg textarea{
+        width: 100%;
+    }
+}
