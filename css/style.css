@@ -9,13 +9,23 @@ main{
 }
 
 header{
-    height: 100px;
-    background-color: #F2F2F2;    
+    height: 600px;
 }
-header img{
-    height: 15vh;
+header img:first-child{
+    height: 100vh;
+    width: 101%;
     position: relative;
-    left: 5%;
+    left: -1%;
+    z-index: 1;
+
+}
+
+header img:nth-child(2){
+    height: 50vh;
+    position: relative;
+    top: -600px;
+    left: 37%;
+    z-index: 2;
 }
 header p{
     position: relative;
@@ -26,29 +36,30 @@ header button.color{
     background-color:  #0f63a0; 
     color: white;
     border: none;
-    width: 80px;
-    height: 35px;
+    width: 240px;
+    height: 55px;
     cursor: pointer;
     position: relative;
-    top: -85px;
-    left: 80%;
+    top: -505px;
+    left: 40%;
+    z-index: 3
 }
 
 
 .about{
-    height: 300px;
+    height: 400px;
     background-color: white;
 }
 .about h1{
     position: relative;
-    top: 15%;
+    top: 25%;
     left: 13%;
     color: #0f63a0;
     
 }
 .about h2{
     position: relative;
-    top: 15%;
+    top: 25%;
     left: 13%;
     color: #0f63a0;
     font-size: 25x;
@@ -56,7 +67,7 @@ header button.color{
 .about p{
     width: 800px;
     position: relative;
-    top: 15%;
+    top: 25%;
     left: 13%;
     color: black;
     font-size: 20px;
@@ -236,7 +247,7 @@ header button.color{
 .medical .m1 h3{
      position: relative;
     left:-70px;
-    top: 30px;
+    top: 10px;
     color: #0f63a0;
     font-size: 25px;
     width: 300px;
@@ -247,6 +258,7 @@ header button.color{
     position: relative;
     left:-70px;
     top: -160px;
+    text-align: center;
 }
 .medical .m1 button.color{
     background-color:  #0f63a0; 
@@ -256,7 +268,7 @@ header button.color{
     height: 40px;
     cursor: pointer;
     position: relative;
-    top: -144px;
+    top: -120px;
     left: -100px;
 }
 
@@ -280,7 +292,7 @@ header button.color{
 .medical .m2 h3{
      position: relative;
     left:-70px;
-    top: 30px;
+    top: 10px;
     color: #0f63a0;
     font-size: 25px;
     width: 300px;
@@ -291,6 +303,7 @@ header button.color{
     position: relative;
     left:-70px;
     top: -160px;
+    text-align: center;
 }
 .medical .m2 button.color{
     background-color:  #0f63a0; 
@@ -300,7 +313,7 @@ header button.color{
     height: 40px;
     cursor: pointer;
     position: relative;
-    top: -144px;
+    top: -120px;
     left: -100px;
 }
 
@@ -323,7 +336,7 @@ header button.color{
 .medical .m3 h3{
      position: relative;
     left:-70px;
-    top: 30px;
+    top: 10px;
     color: #0f63a0;
     font-size: 25px;
     width: 300px;
@@ -334,6 +347,7 @@ header button.color{
     position: relative;
     left:-70px;
     top: -160px;
+    text-align: center;
 }
 .medical .m3 button.color{
     background-color:  #0f63a0; 
@@ -343,30 +357,30 @@ header button.color{
     height: 40px;
     cursor: pointer;
     position: relative;
-    top: -144px;
+    top: -120px;
     left: -100px;
 }
 
 .medical .m4{
     height: 70px;
-    width: 100px;
+    width: 70px;
     padding: 180px 100px;
     background-color: #f2f2f2;
     position: relative;
     top: -53.5%;
-    left: 13%;
+    left: 8%;
 }
 .medical .m4 img{
-     height: 200px;
+     height: 180px;
+    width: 270px;
     position: relative;
     top: -240px;
     left: -100px;
-    width:300px
 }
 .medical .m4 h3{
      position: relative;
     left:-70px;
-    top: 30px;
+    top: 10px;
     color: #0f63a0;
     font-size: 25px;
     width: 300px;
@@ -377,41 +391,42 @@ header button.color{
     position: relative;
     left:-70px;
     top: -160px;
+    text-align: center;
 }
 .medical .m4 button.color{
     background-color:  #0f63a0; 
     color: white;
     border: none;
-    width: 300px;
+    width: 270px;
     height: 40px;
     cursor: pointer;
     position: relative;
-    top: -144px;
+    top: -150px;
     left: -100px;
 }
 
 .medical .m5{
     height: 70px;
-    width: 100px;
+    width: 70px;
     padding: 180px 100px;
     background-color: #f2f2f2;
     position: relative;
     top: -89.3%;
-    left: 38%;
+    left: 30%;
 }
 .medical .m5 img{
-     height: 200px;
+    height: 180px;
+    width: 270px;
     position: relative;
     top: -240px;
     left: -100px;
-    width:300px
 }
 .medical .m5 h3{
      position: relative;
-    left:-70px;
-    top: 30px;
+    left:-80px;
+    top: 10px;
     color: #0f63a0;
-    font-size: 25px;
+    font-size: 22px;
     width: 300px;
 }
 .medical .m5 p{
@@ -420,41 +435,42 @@ header button.color{
     position: relative;
     left:-70px;
     top: -160px;
+    text-align: center;
 }
 .medical .m5 button.color{
     background-color:  #0f63a0; 
     color: white;
     border: none;
-    width: 300px;
+    width: 270px;
     height: 40px;
     position: relative;
-    top: -144px;
+     top: -100px;
     left: -100px;
     cursor: pointer;
 }
 
 .medical .m6{
     height: 70px;
-    width: 100px;
+    width: 70px;
     padding: 180px 100px;
     background-color: #f2f2f2;
     position: relative;
     top: -125.2%;
-    left: 63%;
+    left: 52%;
 }
 .medical .m6 img{
-     height: 200px;
+    height: 180px;
+    width: 270px;
     position: relative;
     top: -240px;
     left: -100px;
-    width:300px
 }
 .medical .m6 h3{
      position: relative;
-    left:-70px;
-    top: 30px;
+    left:-90px;
+    top: 10px;
     color: #0f63a0;
-    font-size: 25px;
+    font-size: 22px;
     width: 300px;
 }
 .medical .m6 p{
@@ -463,18 +479,64 @@ header button.color{
     position: relative;
     left:-70px;
     top: -160px;
+    text-align: center;
 }
 .medical .m6 button.color{
     background-color:  #0f63a0; 
     color: white;
     border: none;
-    width: 300px;
+    width: 270px;
     height: 40px;
     cursor: pointer;
     position: relative;
-    top: -144px;
+    top: -100px;
     left: -100px;
 }
+
+.medical .m7{
+    height: 70px;
+    width: 70px;
+    padding: 180px 100px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: -161.1%;
+    left: 74%;
+}
+.medical .m7 img{
+     height: 180px;
+    width: 270px;
+    position: relative;
+    top: -240px;
+    left: -100px;
+}
+.medical .m7 h3{
+     position: relative;
+    left:-70px;
+    top: 10px;
+    color: #0f63a0;
+    font-size: 25px;
+    width: 300px;
+}
+.medical .m7 p{
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    left:-70px;
+    top: -160px;
+    text-align: center;
+}
+.medical .m7 button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 270px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -100px;
+    left: -100px;
+}
+
 
 .pag-three{
     height: 600px;
@@ -565,28 +627,32 @@ footer a{
         background-color: #f2f2f2;
     }
     header{
-        height:  500px;
+        height:  400px;
     }
-    header img{
-       height: 30vh;
+    header img:first-child{
+        height: 0px;
+    }
+    header img:nth-child(2){
+       height: 60vh;
         position: relative;
-        left:20%;
+        top:-90px;
+        left:-3%;
     }
     header p{
         font-size: 0px;
     }
     header button.color{
         width: 70%;
-        height: 100px;
+        height: 80px;
         position: relative;
-        top: 90px;
+        top: -120px;
         left: 15%;
         font-size: 30px;
     }
     
     .about{
-        background-color: aqua;
-        height: 1300px; 
+        background-color: #f2f2f2;
+        height: 1000px; 
     }
     .about h1{
         width: 50px;
@@ -613,7 +679,7 @@ footer a{
     .pag-one{
         width: 100%;
         height: 2100px;
-        background-color: GREEN;
+        background-color: #f2f2f2
         background-size: cover;
     }
     .pag-one h1{
@@ -692,8 +758,8 @@ footer a{
    
     
     .medical {
-        height: 3800px;
-        background-color: pink;
+        height: 4500px;
+       background-color: #f2f2f2
     }
     .medical h1{
          width: 400px;
@@ -709,7 +775,8 @@ footer a{
     .medical .m3,
     .medical .m4,
     .medical .m5,
-    .medical .m6{
+    .medical .m6,
+    .medical .m7{
         max-width: 550px;
         height: 500px;
         width: 80%;
@@ -725,7 +792,8 @@ footer a{
     .medical .m3 img,
     .medical .m4 img,
     .medical .m5 img,
-    .medical .m6 img{
+    .medical .m6 img,
+    .medical .m7 img{
         height: 30vh;
         width: 43vh;
         position: relative;
@@ -738,10 +806,11 @@ footer a{
     .medical .m3 h3,
     .medical .m4 h3,
     .medical .m5 h3,
-    .medical .m6 h3{
+    .medical .m6 h3,
+    .medical .m7 h3{
         position: relative;
-        top: 180px;
-        left: 5%;
+        top: 200px;
+        left:13%;
         font-size: 30px;
     }
     
@@ -750,12 +819,13 @@ footer a{
     .medical .m3 p,
     .medical .m4 p,
     .medical .m5 p,
-    .medical .m6 p{
+    .medical .m6 p,
+    .medical .m7 p{
         width: 200px;
         font-size: 25px;
         position: relative;
-         top: -10px;
-        left: 5%;
+         top: 10px;
+        left: 13%;
     }
     
     .medical .m1 button.color,
@@ -763,10 +833,11 @@ footer a{
     .medical .m3 button.color,
     .medical .m4 button.color,
     .medical .m5 button.color,
-    .medical .m6 button.color{
+    .medical .m6 button.color,
+    .medical .m7 button.color{
        position: relative;
-        top: 0px;
-        left: 3%;
+        top: 50px;
+        left: 13%;
         width:70%;
         height: 80px;
         font-size: 30px;
@@ -786,6 +857,7 @@ footer a{
         position: relative;
         top:9%;
         left: 13%;
+        height: 520px;
     }
     .medical .m5{
         position: relative;
@@ -797,7 +869,26 @@ footer a{
         top: 13%;
         left: 13%;
     }
-   
+    .medical .m7{
+        position: relative;
+        top: 15%;
+        left: 13%;
+    }
+    
+    .medical .m4 p{
+        font-size: 21px;
+    } 
+    .medical .m5 img,
+    .medical .m6 img{
+        position: relative;
+        top: -95px;
+        left: 10px;
+    }
+    .medical .m4 button.color{
+        position: relative;
+        top: 10px;
+    }
+    
     
     .pag-three{
         height: 900px;
@@ -814,13 +905,13 @@ footer a{
          width: 300px;
         position: relative;
         top: 150px;
-        left: 10%
+        left: 3%;
     }
     
     .pag-three form{
         position: relative;
         top: 18.5%;
-        left:13%;
+        left:3%;
         width: 80%;
         height:360px    
     }
