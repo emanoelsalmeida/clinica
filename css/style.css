@@ -621,10 +621,11 @@ footer a{
         top: 3%;
         left: 3%;
         color: #0f63a0;
-        font-size: 50px;
+        font-size: 40px;
     }
     .pag-one .box-one,
-    .pag-one .box-two{
+    .pag-one .box-two,
+    .pag-one .box-three{
         max-width: 550px;
         height: 500px;
         width: 80%;
@@ -633,31 +634,41 @@ footer a{
         position: relative;
         top: 8%;
         margin: -40px;
+        margin-bottom: 50px;
     }
+    
     .pag-one .box-one img,
-    .pag-one .box-two img{
+    .pag-one .box-two img,
+     .pag-one .box-three img{
        height: 30vh;
         width: 43vh;
         position: relative;
         top: -60px;
         left:10px;
     }
+    
     .pag-one .box-one h3,
-    .pag-one .box-two h3{
+    .pag-one .box-two h3,
+    .pag-one .box-three h3{
         position: relative;
         top: 180px;
         left: 5%;
         font-size: 30px;
     }
+    
     .pag-one .box-one p,
-     .pag-one .box-two p{
+     .pag-one .box-two p, 
+    .pag-one .box-three p{
         width: 200px;
         font-size: 25px;
         position: relative;
          top: -10px;
         left: 5%;
     }
-    .pag-one .box-one button.color, .pag-one .box-two button.color{
+    
+    .pag-one .box-one button.color, .pag-one .box-two button.color,
+     .pag-one .box-three button.color
+    {
         position: relative;
         top: 0px;
         left: 3%;
@@ -671,42 +682,12 @@ footer a{
         top:10%;
         left:13%;
     }
+    
     .pag-one .box-three{
-        max-width: 550px;
-        height: 700px;
-        width: 100%;
-        padding: 170px 100px;
-        background-color: white;
-        position: relative;
         top: 14%;
-        left: -1%;
+        left: 13%;
     }
-    .pag-one .box-three img{
-        height: 40vh;
-        width: 63vh;
-        position: relative;
-        top: -260px;
-        left:-80px;
-    }
-    .pag-one .box-three h3{
-        position: relative;
-        top: 160px;
-        font-size: 50px;
-    }
-    .pag-one .box-three p{
-        width: 400px;
-        font-size: 50px;
-        position: relative;
-        top: -80px;
-    }
-    .pag-one .box-three button.color{
-        position: relative;
-        top: -50px;
-        left: -85px;
-        width:150%;
-        height: 80px;
-        font-size: 30px;
-    }
+   
     
     .medical {
         height: 6700px;
