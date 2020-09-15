@@ -558,6 +558,7 @@ footer a{
     text-decoration: none;
     color:black;
 }
+
 @media screen and (max-width: 900px){
     body{
         background-color: #f2f2f2;
@@ -566,19 +567,19 @@ footer a{
         height:  500px;
     }
     header img{
-       height: 40vh;
+       height: 30vh;
         position: relative;
-        left:25%;
+        left:20%;
     }
     header p{
         font-size: 0px;
     }
     header button.color{
-        width: 120%;
+        width: 70%;
         height: 100px;
         position: relative;
         top: 90px;
-        left: 13%;
+        left: 15%;
         font-size: 30px;
     }
     
@@ -588,24 +589,24 @@ footer a{
     }
     .about h1{
         width: 50px;
-        font-size: 50px;
+        font-size: 40px;
         position: relative;
         top: 5%;
-        left: 10%;
+        left: 5%;
     }
     .about h2{
     position: relative;
     top: 5%;
-    left: 10%;
-    font-size: 45px;
-     width: 500px;
+    left: 3%;
+    font-size: 35px;
+     width: 300px;
 }
     .about p{
-        width: 400px;
-        font-size: 40px;
+        width: 300px;
+        font-size: 30px;
         position: relative;
         top: 7%;
-        left: 10%;
+        left: 3%;
     }
     
     .pag-one{
