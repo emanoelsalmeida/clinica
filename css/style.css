@@ -44,6 +44,7 @@ header button.color{
     top: 15%;
     left: 13%;
     color: #0f63a0;
+    
 }
 .about h2{
     position: relative;
@@ -585,14 +586,14 @@ footer a{
     
     .about{
         background-color: aqua;
-        height: 1000px; 
+        height: 1300px; 
     }
     .about h1{
         width: 50px;
-        font-size: 40px;
+        font-size: 38px;
         position: relative;
         top: 5%;
-        left: 5%;
+        left: 3%;
     }
     .about h2{
     position: relative;
