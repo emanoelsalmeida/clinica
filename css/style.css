@@ -1057,10 +1057,19 @@ footer a{
     .input-fields input, .msg textarea{
         width: 100%;
         position: relative;
-        top: 15%;
+        top: 8%;
         left: -33%;
+        margin-top: 30px;
     }
-    
+    .msg textarea{
+        position: relative;
+        left: -66%;
+    }
+    .input-fields button{
+        position: relative;
+        left: -36%;
+        margin-top: 40px 
+    }
     footer{
         width: 100%;
         height: 30px;
