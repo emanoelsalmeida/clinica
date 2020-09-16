@@ -889,8 +889,8 @@ footer a{
     .medical .m6 h3,
     .medical .m7 h3{
         position: relative;
-        top: 210px;
-        left:1%;
+        top: 200px;
+        left:15%;
         font-size: 25px;
     }
     
@@ -961,8 +961,8 @@ footer a{
     .medical .m5 h3,
     .medical .m6 h3{
          position: relative;
-        top:230px;
-        left:1%;
+        top:200px;
+        left:5%;
         font-size: 21px;
     }
     .medical .m5 p,
