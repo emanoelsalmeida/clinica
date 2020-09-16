@@ -589,24 +589,25 @@ header button.color{
     top: 80px;
     left: 13%; 
     width: 400px;
-    height: 300px;
+    height: 350px;
 }
 
 .pag-three form{
     width: 450px;
     position: relative;
-    top: -37%;
+    top: -46%;
     left: 52%;
     max-width: 550px;
     background-color: white;
     display:flex;
-    height: 300px
+    height: 350px
 }
 .pag-three form h2{
     position: relative;
     top:3%;
     left: 12%;
     color: #0f63a0;
+    font-size: 20px;
 }
 .pag-three form .input-fields{
     position: relative;
