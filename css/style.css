@@ -877,8 +877,8 @@ footer a{
         height: 20vh;
         width: 33vh;
         position: relative;
-        top: -10px;
-        left: 30px;
+        top: -60px;
+        left:10px;
     }
     
     .medical .m1 h3,
@@ -888,10 +888,10 @@ footer a{
     .medical .m5 h3,
     .medical .m6 h3,
     .medical .m7 h3{
-        position: relative;
-        top: 200px;
-        left:15%;
-        font-size: 25px;
+       position: relative;
+        top: 190px;
+        left: 5%;
+        font-size: 30px;
     }
     
     .medical .m1 p,
@@ -904,8 +904,9 @@ footer a{
         width: 200px;
         font-size: 20px;
         position: relative;
-         top: 90px;
-        left: 13%;
+         top: 70px;
+        left: 5%;
+        text-align: left;
     }
     
     .medical .m1 button.color,
@@ -915,9 +916,10 @@ footer a{
     .medical .m5 button.color,
     .medical .m6 button.color,
     .medical .m7 button.color{
-       position: relative;
+        font-size: 30px;
+        position: relative;
         top: 130px;
-        left: 13%;
+        left: 3%;
         width:70%;
         height: 60px;
         font-size: 30px;
