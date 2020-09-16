@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 
 main{
@@ -37,6 +38,7 @@ header img{
 header .nav-links ul{
      list-style: none;
      text-align: center;
+    transition: all 3.4s;
  }
 header .nav-links ul li {
      display: inline-block;
@@ -45,7 +47,7 @@ header .nav-links ul li {
 header .nav-links ul li a{
      text-decoration: none;
      color: black;
-     font-size: 17px
+     font-size: 17px;
  }
 header .nav-links ul li a:hover{
     color: #0f63a0
@@ -105,6 +107,7 @@ header button.color{
     top: 25%;
     left: 13%;
     color: #0f63a0;
+    font-size: 30px;
     
 }
 .about h2{
@@ -516,7 +519,7 @@ header button.color{
 .pag-one .box-two{
     float: right;
     position: relative;
-    top: 5%;
+    top: 7%;
     left:23%;
     
 }
@@ -530,6 +533,10 @@ header button.color{
     left:-120%;
     top: -90px;
     text-align:right;
+}
+.pag-one .box-three{
+     position: relative;
+    top: 9%;
 }
 
 .tratamento{
@@ -639,6 +646,8 @@ footer{
     height: 30px;
     background-color: #8c8c8c;
      font-size: 17px;
+    max-width: 100%;
+
 }
 footer .footer-text{
     text-decoration: none;
