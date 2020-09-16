@@ -9,23 +9,51 @@ main{
 }
 
 header{
-    height: 600px;
+    height: 100px;
+    background-color: #f2f2f2
 }
-header img:first-child{
-    height: 100vh;
-    width: 101%;
+header img{
+    height: 35vh;
     position: relative;
-    left: -1%;
-    z-index: 1;
+    top:-145px;
+    left: 1%;
 
 }
 
-header img:nth-child(2){
-    height: 50vh;
-    position: relative;
-    top: -600px;
-    left: 37%;
-    z-index: 2;
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+header .nav-links ul{
+     list-style: none;
+     text-align: center;
+ }
+header .nav-links ul li {
+     display: inline-block;
+     margin: 45px 15px 10px 10px;
+ }
+header .nav-links ul li a{
+     text-decoration: none;
+     color: black;
+     font-size: 17px
+ }
+header .nav-links ul li a:hover{
+    color: #0f63a0
+}
+header .nav-links ul li:first-child a{
+    padding: 15px 20px;
+    background-color: #0f63a0;
+    color: white;
 }
 header p{
     position: relative;
@@ -36,19 +64,40 @@ header button.color{
     background-color:  #0f63a0; 
     color: white;
     border: none;
-    width: 240px;
-    height: 55px;
+    width: 120px;
+    height: 50px;
     cursor: pointer;
     position: relative;
-    top: -505px;
-    left: 40%;
+    top: -290px;
+    left: 85%;
     z-index: 3
 }
 
+.about-people{
+    height: 400px;
+    background-color: white;
+}
+.about-people h1{
+    position: relative;
+    top:25%;
+    left: 13%;
+    color: #0f63a0;
+    
+}
+.about-people p{
+    width: 800px;
+    position: relative;
+    top: 25%;
+    left: 13%;
+    color: black;
+    font-size: 20px;
+    text-align: left;   
+    margin-top: 20px;
+}
 
 .about{
     height: 400px;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 .about h1{
     position: relative;
@@ -74,146 +123,6 @@ header button.color{
     text-align: left;   
     margin-top: 20px;
 }
-
-.pag-one{
-    height: 650px;
-}
-
-.pag-one h1{
-    width: 30px;
-    position: relative;
-    top: 5%;
-    left: 40%;
-    color: #0f63a0;
-    font-size: 40px;
-}
-.pag-one .box-one{
-    height: 70px;
-    width: 100px;
-    padding: 170px 100px;
-    background-color: white;
-    position: relative;
-    top: 15%;
-    left: 13%;
-}
-.pag-one .box-one img{
-    height: 200px;
-    position: relative;
-    top: -220px;
-    left: -100px;
-    width:300px;
-}
-.pag-one .box-one h3{
-    position: relative;
-    left:-70px;
-    top: 30px;
-    color: #0f63a0;
-    font-size: 25px;
-}
-.pag-one .box-one p{
-    width: 200px;
-    font-size: 20px;
-    position: relative;
-    left:-70px;
-    top: -160px;
-}
-.pag-one .box-one button.color{
-    background-color:  #0f63a0; 
-    color: white;
-    border: none;
-    width: 300px;
-    height: 35px;
-    cursor: pointer;
-    position: relative;
-    top: -143px;
-    left: -100px;
-}
-
-.pag-one .box-two{
-    height: 70px;
-    width: 100px;
-    padding: 170px 100px;
-    background-color: white;
-    position: relative;
-    top: -48%;
-    left: 38%;
-}
-.pag-one .box-two img{
-    height: 200px;
-    position: relative;
-    top: -220px;
-    left: -100px;
-    width:300px
-}
-.pag-one .box-two h3{
-    position: relative;
-    left:-70px;
-    top: 30px;
-    color: #0f63a0;
-    font-size: 25px;
-}
-.pag-one .box-two p{
-    width: 200px;
-    font-size: 20px;
-    position: relative;
-    left:-70px;
-    top: -160px;
-}
-.pag-one .box-two button.color{
-    background-color:  #0f63a0; 
-    color: white;
-    border: none;
-    width: 300px;
-    height: 35px;
-    cursor: pointer;
-    position: relative;
-    top: -143px;
-    left: -100px;
-}
-
-.pag-one .box-three{
-    height: 70px;
-    width: 100px;
-    padding: 170px 100px;
-    background-color: white;
-    position: relative;
-    top: -111.1%;
-    left: 63%;
-}
-.pag-one .box-three img{
-    height: 200px;
-    position: relative;
-    top: -220px;
-    left: -100px;
-    width:300px
-}
-.pag-one .box-three h3{
-    position: relative;
-    left:-70px;
-    top: 30px;
-    color: #0f63a0;
-    font-size: 25px;
-    width: 300px;
-}
-.pag-one .box-three p{
-    width: 200px;
-    font-size: 20px;
-    position: relative;
-    left:-70px;
-    top: -160px;
-}
-.pag-one .box-three button.color{
-    background-color:  #0f63a0; 
-    color: white;
-    border: none;
-    width: 300px;
-    height: 35px;
-    cursor: pointer;
-    position: relative;
-    top: -143px;
-    left: -100px;
-}
-
 
 .medical{
      height: 1200px;
@@ -537,6 +446,124 @@ header button.color{
     left: -100px;
 }
 
+.pag-one{
+    height: 1100px;
+}
+
+.pag-one h1{
+    width: 30px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    color: #0f63a0;
+    font-size: 40px;
+}
+
+.pag-one .box-one,
+.pag-one .box-two,
+.pag-one .box-three{
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 20%;
+}
+
+.pag-one .box-one img,
+.pag-one .box-two img,
+.pag-one .box-three img{
+    height: 30vh;
+    position: relative;
+    top: 50px;
+    left: -100px;
+    width:300px;
+}
+
+.pag-one .box-one h3,
+.pag-one .box-two h3,
+.pag-one .box-three h3{
+    position: relative;
+    left:34%;
+    top: 100px;
+    color: #0f63a0;
+    font-size: 25px;
+}
+
+.pag-one .box-one p,
+.pag-one .box-two p,
+.pag-one .box-three p{
+    width: 700px;
+    font-size: 20px;
+   position: relative;
+    left:34%;
+    top: -90px;
+}
+
+.pag-one .box-one button.color
+,.pag-one .box-two button.color,
+.pag-one .box-three button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    top: -143px;
+    left: -100px;
+}
+
+.pag-one .box-two{
+    float: right;
+    position: relative;
+    top: 5%;
+    left:23%;
+    
+}
+.pag-one .box-two h3{
+    position: relative;
+    top: 100px;
+    left: -34%;
+}
+.pag-one .box-two p{
+    position: relative;
+    left:-120%;
+    top: -90px;
+    text-align:right;
+}
+
+.tratamento{
+    height: 400px;
+    background-color: white;
+}
+.tratamento h1{
+    position: relative;
+    top:5%;
+    left: 40%;
+    color: #0f63a0;
+    
+}
+.tratamento p{
+    width: 800px;
+    position: relative;
+    top: 15%;
+    left: 13%;
+    color: black;
+    font-size: 20px;
+    text-align: left;   
+    margin-top: 20px;
+}
+.tratamento  button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    left: 13%;
+    font-size: 15px
+}
 
 .pag-three{
     height: 600px;
@@ -629,15 +656,35 @@ footer a{
     header{
         height:  400px;
     }
-    header img:first-child{
-        height: 0px;
+    header img{
+        height: 50vh;
     }
-    header img:nth-child(2){
-       height: 60vh;
-        position: relative;
-        top:-120px;
-        left:-11%;
+    
+    .checkbtn{
+        display: block;
     }
+    header .nav-links ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: white;
+        top:80px;
+        left: -100%;
+        text-align: center;    
+        transition: all .5s
+    }
+    header .nav-links ul li{
+        display:block;
+        margin: 50px 0px;
+        line-height: 30px;
+    }
+    header .nav-links ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0px;
+    }
+    
     header p{
         font-size: 0px;
     }
@@ -648,6 +695,32 @@ footer a{
         top: -190px;
         left: 15%;
         font-size: 30px;
+    }
+    
+    .about-people{
+        background-color: #f2f2f2;
+        height: 1000px; 
+    }
+    .about-people h1{
+        width: 350px;
+        font-size: 38px;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    .about-people h2{
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-size: 35px;
+     width: 300px;
+}
+    .about-people p{
+        width: 300px;
+        font-size: 30px;
+        position: relative;
+        top: 7%;
+        left: 3%;
     }
     
     .about{
@@ -679,11 +752,11 @@ footer a{
     .pag-one{
         width: 100%;
         height: 2000px;
-        background-color: #f2f2f2
+        background-color: #f2f2f2;
         background-size: cover;
     }
     .pag-one h1{
-        width: 30px;
+        width: 38px;
         position: relative;
         top: 3%;
         left: 3%;
@@ -701,6 +774,7 @@ footer a{
         background-color: white;
         position: relative;
         top: 8%;
+        left:13%;
         margin: -40px;
         margin-bottom: 50px;
     }
@@ -719,18 +793,18 @@ footer a{
     .pag-one .box-two h3,
     .pag-one .box-three h3{
         position: relative;
-        top: 150px;
+        top: 190px;
         left: 5%;
         font-size: 30px;
     }
     
     .pag-one .box-one p,
-     .pag-one .box-two p, 
+    .pag-one .box-two p, 
     .pag-one .box-three p{
         width: 200px;
         font-size: 20px;
         position: relative;
-         top: -10px;
+         top: 70px;
         left: 5%;
     }
     
@@ -746,16 +820,17 @@ footer a{
     }
     
     .pag-one .box-two{
-         position: relative;
+        position: relative;
         top:10%;
-        left:13%;
+        left:-13%;
     }
-    
-    .pag-one .box-three{
-        top: 14%;
-        left: 13%;
+    .pag-one .box-two p{
+        text-align: left
     }
-   
+     .pag-one .box-three{
+        position: relative;
+        top:12%;
+    }
     
     .medical {
         height: 4500px;
@@ -809,7 +884,7 @@ footer a{
     .medical .m6 h3,
     .medical .m7 h3{
         position: relative;
-        top: 150px;
+        top: 210px;
         left:13%;
         font-size: 25px;
     }
@@ -824,7 +899,7 @@ footer a{
         width: 200px;
         font-size: 20px;
         position: relative;
-         top: 10px;
+         top: 70px;
         left: 13%;
     }
     
@@ -836,7 +911,7 @@ footer a{
     .medical .m6 button.color,
     .medical .m7 button.color{
        position: relative;
-        top: 50px;
+        top: 110px;
         left: 13%;
         width:70%;
         height: 60px;
@@ -881,13 +956,13 @@ footer a{
     .medical .m5 h3,
     .medical .m6 h3{
          position: relative;
-        top:170px;
+        top:230px;
         left:5%;
     }
     .medical .m5 p,
     .medical .m6 p{
         position: relative;
-        top:40px;
+        top:100px;
     }
     .medical .m5 img,
     .medical .m6 img{
@@ -897,9 +972,38 @@ footer a{
     }
     .medical .m4 button.color{
         position: relative;
-        top: 10px;
+        top: 80px;
     }
     
+    .tratamento{
+        background-color: #f2f2f2;
+        height: 1000px; 
+    }
+    .tratamento h1{
+        width: 50px;
+        font-size: 38px;
+        position: relative;
+        top: 5%;
+        left: 3%;
+    }
+    .tratamento h2{
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-size: 35px;
+     width: 300px;
+}
+    .tratamento p{
+        width: 300px;
+        font-size: 30px;
+        position: relative;
+        top: 7%;
+        left: 3%;
+    }
+    .tratamento button.color{
+        position: relative;
+        top: 150px;
+    }
     
     .pag-three{
         height: 900px;
