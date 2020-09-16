@@ -22,7 +22,7 @@ header img{
 
  header .nav-links .checkbtn{
     font-size: 30px;
-    color:  #0f63a0;
+    color:  #f2f2f2;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -662,7 +662,7 @@ footer a{
     }
     
     header .nav-links  .checkbtn{
-        display: none;
+        display: block;
     }
     header .nav-links ul{
         position: fixed;
@@ -687,7 +687,7 @@ footer a{
         color: black;
     }
     header .nav-links #check:checked ~ ul{
-        left: 0px;
+        left: 10px;
     }
     
     header p{
