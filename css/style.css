@@ -662,7 +662,7 @@ footer a{
     }
     
     header .nav-links  .checkbtn{
-        display: block;
+        display: none;
     }
     header .nav-links ul{
         position: fixed;
