@@ -2,23 +2,51 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
 }
-
+body{
+    overflow-x: hidden;
+}
 main{
    background-color: #F2F2F2;
 }
 
 header{
     height: 100px;
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #0f63a0
 }
-header img{
-    height: 35vh;
+header img:nth-child(2){
+    height: 10vh;
     position: relative;
-    top:-145px;
-    left: 1%;
+    top:-68px;
+    left: 3%;
 
+}
+
+header a img {
+    height: 5vh;
+    position: relative;
+    top:-159px;
+    left: 76%;
+    margin-left: 20px
+}
+header a img:nth-child(4){
+    height: 4vh;
+    position: relative;
+    top:-158px;
+    left: 60%;
+}
+header button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    top: -119px;
+    left: 85%;
+    z-index: 3
 }
 
  header .nav-links .checkbtn{
@@ -38,7 +66,6 @@ header img{
 header .nav-links ul{
      list-style: none;
      text-align: center;
-    transition: all 3.4s;
  }
 header .nav-links ul li {
      display: inline-block;
@@ -58,23 +85,73 @@ header .nav-links ul li:first-child a{
     color: white;
 }
 
-header p{
-    position: relative;
-    top: -55px;
-    left: 30%
+.pag-slide{
+    background-color: #f2f2f2
 }
-header button.color{
-    background-color:  #0f63a0; 
-    color: white;
-    border: none;
-    width: 120px;
-    height: 50px;
+.slidershow{
+    width:700px;
+    height: 500px;
+    overflow: hidden;
+
+}
+.middle{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,10%);
+
+}
+.navigation{
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
     cursor: pointer;
-    position: relative;
-    top: -290px;
-    left: 85%;
-    z-index: 3
+    transition: .4s
 }
+.bar:hover{
+    background:#0f63a0
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 500%;
+    height: 80%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: .6s
+}
+.slide img{
+    width: 100%;
+    height: 100%
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+
 
 .about-people{
     height: 400px;
@@ -131,6 +208,7 @@ header button.color{
 .medical{
      height: 1200px;
      background-color: white;
+
 }
 .medical h1{
     width: 300px;
@@ -278,7 +356,7 @@ header button.color{
     height: 70px;
     width: 70px;
     padding: 180px 100px;
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
     position: relative;
     top: -53.5%;
     left: 8%;
@@ -322,7 +400,7 @@ header button.color{
     height: 70px;
     width: 70px;
     padding: 180px 100px;
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
     position: relative;
     top: -89.3%;
     left: 30%;
@@ -451,7 +529,9 @@ header button.color{
 }
 
 .pag-one{
-    height: 1100px;
+    height: 1200px;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 .pag-one h1{
@@ -521,6 +601,7 @@ header button.color{
     position: relative;
     top: 7%;
     left:23%;
+    margin: 50px 0px;
     
 }
 .pag-one .box-two h3{
@@ -537,6 +618,9 @@ header button.color{
 .pag-one .box-three{
      position: relative;
     top: 9%;
+}
+.pag-one {
+    max-width: 100%;
 }
 
 .tratamento{
@@ -589,25 +673,26 @@ header button.color{
     top: 80px;
     left: 13%; 
     width: 400px;
-    height: 350px;
+    height: 400px;
 }
 
 .pag-three form{
     width: 450px;
     position: relative;
-    top: -46%;
+    top: -54%;
     left: 52%;
     max-width: 550px;
     background-color: white;
     display:flex;
-    height: 350px
+    height: 400px
 }
-.pag-three form h2{
+.pag-three form h3{
     position: relative;
     top:3%;
-    left: 12%;
+    left: 13%;
     color: #0f63a0;
-    font-size: 20px;
+    font-size: 18px;
+    width: 600px;
 }
 .pag-three form .input-fields{
     position: relative;
@@ -618,7 +703,7 @@ header button.color{
     margin-right: 4%;
 }
 .input-fields, .msg{
-    width: 48%
+    width: 168%
 }
 .input-fields input, .msg textarea{
     margin: 10px 0;
@@ -631,16 +716,17 @@ header button.color{
 }
 .msg textarea{
     height: 80px;
-    width: 48%;
+    width: 60%;
 }
 .input-fields button{
-    background:  #0f63a0;
+    background-color:  #0f63a0;
     color: white;
     text-align: center;
     padding: 5px;
     cursor: pointer;
     text-transform: uppercase;
     border: none;
+    width: 38%.
 }
 
 footer{
@@ -665,11 +751,43 @@ footer a{
         background-color: #f2f2f2;
     }
     header{
-        height:  400px;
+        height:  300px;
     }
-    header img{
-        height: 50vh;
+    header img:nth-child(2){
+        height: 10vh;
+        position: relative;
+        top:-60px;
+        left:10%;
     }
+     header a img{
+        height: 8vh;
+        position: relative;
+        top:-80px;
+         left:10%
+    }
+
+    .pag-slide{
+        background-color: #f2f2f2
+    }
+    .slide img{
+    width: 60%;
+    height: 100%
+}
+    .bar{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .4s
+}
+    .middle{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-40%,10%);
+
+}
     
     header .nav-links  .checkbtn{
         display: block;
@@ -707,8 +825,8 @@ footer a{
         width: 70%;
         height: 60px;
         position: relative;
-        top: -190px;
-        left: 15%;
+        top: 70px;
+        left: 12%;
         font-size: 30px;
     }
     
@@ -1039,7 +1157,7 @@ footer a{
     }
     
     .pag-three{
-        height: 1000px;
+        height: 1200px;
     }
     .pag-three h1{
         width: 500px;
@@ -1087,11 +1205,12 @@ footer a{
     }
     footer{
         width: 100%;
-        height: 30px;
+        height: 60px;
         background-color: #8c8c8c;
         font-size: 17px;
         }
     footer .footer-text{
+    margin: 10px 0px;
     font-size: 18px;
     text-decoration: none;
     position: relative;
