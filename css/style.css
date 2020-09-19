@@ -12,29 +12,24 @@ main{
 
 header{
     height: 100px;
-    background-color: #f2f2f2;
-    border-bottom: 2px solid #0f63a0
+    background-color: white;
+    border-bottom: 5px solid #0f63a0
 }
 header img:nth-child(2){
-    height: 10vh;
+    height: 7vh;
     position: relative;
-    top:-68px;
-    left: 3%;
+    top:-58px;
+    left: 5%;
+    margin-bottom: 20px;
 
 }
-
-header a img {
-    height: 5vh;
-    position: relative;
-    top:-159px;
-    left: 76%;
-    margin-left: 20px
-}
-header a img:nth-child(4){
+.header-img img {
     height: 4vh;
     position: relative;
-    top:-158px;
-    left: 60%;
+    top:-110px;
+    left: 78%;
+    margin:0 20px 40px 0;
+
 }
 header button.color{
     background-color:  #0f63a0; 
@@ -43,12 +38,12 @@ header button.color{
     width: 120px;
     height: 50px;
     cursor: pointer;
-    position: relative;
-    top: -119px;
+    position: absolute;
+    top: 4%;
     left: 85%;
-    z-index: 3
+    z-index: 3;
+         margin-bottom: 40px;
 }
-
  header .nav-links .checkbtn{
     font-size: 30px;
     color:  #f2f2f2;
@@ -61,8 +56,6 @@ header button.color{
  header .nav-links #check{
     display: none;
 }
-
-
 header .nav-links ul{
      list-style: none;
      text-align: center;
@@ -84,26 +77,49 @@ header .nav-links ul li:first-child a{
     background-color: #0f63a0;
     color: white;
 }
-
 .pag-slide{
-    background-color: #f2f2f2
+   max-height:600px;
+}
+
+/*slider before*/ 
+/*
+.pag-slide{
+    background-color: #f2f2f2;
+    height: 80vh;
+
+        
 }
 .slidershow{
-    width:700px;
-    height: 500px;
+    width:100%;
+    height: 100vh;
     overflow: hidden;
-
+    object-fit: cover;
+}
+.slides img:nth-child(1){
+    animation-delay: 0s;
+}
+.slides img:nth-child(2){
+    animation-delay: 5s;
+}
+.slides img:nth-child(3){
+    animation-delay: 10s;
+}
+.slides img:nth-child(4){
+    animation-delay: 15s;
+}
+.slides img:nth-child(5){
+    animation-delay: 20s;
 }
 .middle{
     position: relative;
-    top:50%;
+    top:-13%;
     left:50%;
     transform: translate(-50%,10%);
 
 }
 .navigation{
     position: absolute;
-    bottom: 120px;
+    bottom: 160px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -127,10 +143,27 @@ input[name="r"]{
     width: 500%;
     height: 80%;
     display: flex;
-}
+*/
+   /* opacity: 0; 
+    animation: cycleImages 51s infinite;
 .slide{
     width: 20%;
     transition: .6s
+}
+.slides img:nth-child(1){
+    animation-delay: 0s;
+}
+.slides img:nth-child(2){
+    animation-delay: 5s;
+}
+.slides img:nth-child(3){
+    animation-delay: 10s;
+}
+.slides img:nth-child(4){
+    animation-delay: 15s;
+}
+.slides img:nth-child(5){
+    animation-delay: 20s;
 }
 .slide img{
     width: 100%;
@@ -151,7 +184,15 @@ input[name="r"]{
 #r5:checked ~ .s1{
     margin-left: -80%;
 }
-
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+*/
 
 .about-people{
     height: 400px;
@@ -162,10 +203,9 @@ input[name="r"]{
     top:25%;
     left: 13%;
     color: #0f63a0;
-    
 }
 .about-people p{
-    width: 800px;
+    width: 70%;
     position: relative;
     top: 25%;
     left: 13%;
@@ -195,7 +235,7 @@ input[name="r"]{
     font-size: 25x;
 }
 .about p{
-    width: 800px;
+    width: 70%;
     position: relative;
     top: 25%;
     left: 13%;
@@ -756,38 +796,32 @@ footer a{
     header img:nth-child(2){
         height: 10vh;
         position: relative;
-        top:-60px;
+        top:40px;
         left:10%;
     }
-     header a img{
-        height: 8vh;
+     .header-img img{
+        height: 5vh;
         position: relative;
-        top:-80px;
-         left:10%
+        top:50px;
+         left:35%
     }
+    header button.color{
+    background-color:  #0f63a0; 
+    color: white;
+    border: none;
+    width: 220px;
+    height: 70px;
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    z-index: 3;
+         margin-bottom: 40px;
+}
 
     .pag-slide{
         background-color: #f2f2f2
     }
-    .slide img{
-    width: 60%;
-    height: 100%
-}
-    .bar{
-    width: 10px;
-    height: 10px;
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: .4s
-}
-    .middle{
-    position: relative;
-    top:50%;
-    left:50%;
-    transform: translate(-40%,10%);
-
-}
     
     header .nav-links  .checkbtn{
         display: block;
@@ -813,21 +847,6 @@ footer a{
     header .nav-links.active{
         background: none;
         color: black;
-    }
-    header .nav-links #check:checked ~ ul{
-        left: 10px;
-    }
-    
-    header p{
-        font-size: 0px;
-    }
-    header button.color{
-        width: 70%;
-        height: 60px;
-        position: relative;
-        top: 70px;
-        left: 12%;
-        font-size: 30px;
     }
     
     .about-people{
